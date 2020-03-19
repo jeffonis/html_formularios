@@ -1,0 +1,41 @@
+<link href="css/css.css" rel="stylesheet" type="text/css"/>
+
+<div class="form">
+    <form action = "/cadastrar_cliente.php">
+        
+            <label for = "txtnome">Nome</label>
+        <input type="text" id="txtnome" nome="txtnome" placeholder="Nome">
+        
+        <label for = "txtsobrenome">Sobrenome</label>
+        <input type="text" id="txtsobrenome" nome="txtsobrenome" placeholder="Sobrenome">
+        
+        <label for = "txtdata">Data de nascimento</label>
+        <input type="text" id="txtdata" nome="txtdata" placeholder="Data do nascimento">
+        
+        <label for = "txtemail">E-mail</label>
+        <input type="text" id="txtemail" nome="txtemail" placeholder="Email">
+        
+        
+        
+        <div class="cidade">
+            <label for="cmbcidade">cidade</label>
+            <select id="cmbcidade" name="cmbpais">
+                <option value="1">Mogi das Cruzes</option>
+                <option value="1">Suzano</option>
+                <option value="1">Ferraz de Vasconcelos</option>
+                <option value="1">Guararema</option>
+            </select>
+        </div>
+        <div class="sexo">
+            <label for="cmbcidade">Sexo</label>
+            <select id="cmbcidade" name="cmbpais">
+                <option value="1">Masculino</option>
+                <option value="1">Feminino</option>
+                <option value="1">Outro</option>
+               
+            </select>
+        </div>
+        
+        <input type ="submit" value="Gravar">
+    </form>
+</div>
